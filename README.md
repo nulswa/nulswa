@@ -17,7 +17,7 @@
     },
     "projects": [
       {
-        "name": "TORU",
+        "name": "KRON",
         "description": "📍 A modular WhatsApp bot with a simple architecture, designed for high stability and optimal performance, currently under development.",
         "link": "undefined"
       }
