@@ -1,32 +1,8 @@
+<!-- <p align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&center=true&random=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Anshor+Falahi" alt="Typing SVG" /></a> </p> -->
 
-# 🖐🏻 Greetings! Welcome to my profile.
-## `Here you will find some information.`
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=anshorfalahi&data=followers,repositories,stars,commits&theme=nautilus)](https://github.com/nulswa)
 
-```json
-{
-  "profile": {
-    "name": "@Farguts (nulswa)",
-    "region": "Argentina (AR)",
-    "contact": {
-      "phone": "+5493873655135",
-      "email": "marketingalan89@gmail.com",
-      "socialMedia": {
-        "github": "https://github.com/nulswa",
-        "discord": "private"
-      }
-    },
-    "projects": [
-      {
-        "name": "KRON",
-        "description": "📍 A modular WhatsApp bot with a simple architecture, designed for high stability and optimal performance, currently under development.",
-        "link": "undefined"
-      }
-    ],
-    "skills": {
-      "languages": ["JavaScript", "Python", "PHP", "Java", "HTML", "C#", "SQL", "Swift", "Ruby", "Go"],
-    }
-  }
-}
-
-```
+<div align="center">
+    <img src="/github-metrics.svg" width="100%">
+</div>
 
