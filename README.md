@@ -92,18 +92,10 @@
 
 ### 📂 Featured repositories
 
-> Replace `repo1`, `repo2`, `repo3` with your actual repo names. These cards refresh themselves — stars, forks and main language stay live.
-
 <div align="center">
 
-<a href="https://github.com/nulswa/repo1">
+<a href="https://github.com/nulswa/files">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=nulswa&repo=repo1&theme=tokyonight&hide_border=true"/>
-</a>
-<a href="https://github.com/nulswa/repo2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nulswa&repo=repo2&theme=tokyonight&hide_border=true"/>
-</a>
-<a href="https://github.com/nulswa/repo3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nulswa&repo=repo3&theme=tokyonight&hide_border=true"/>
 </a>
 
 </div>
@@ -112,9 +104,7 @@
 
 | Repository | Description | Last commit |
 |---|---|---|
-| **[repo-name-1](https://github.com/nulswa/repo1)** | Short project description | ![Last Commit](https://img.shields.io/github/last-commit/nulswa/repo1?style=flat-square&color=8B5CF6) |
-| **[repo-name-2](https://github.com/nulswa/repo2)** | Short project description | ![Last Commit](https://img.shields.io/github/last-commit/nulswa/repo2?style=flat-square&color=8B5CF6) |
-| **[repo-name-3](https://github.com/nulswa/repo3)** | Short project description | ![Last Commit](https://img.shields.io/github/last-commit/nulswa/repo3?style=flat-square&color=8B5CF6) |
+| **[files](https://github.com/nulswa/files)** | lib | ![Last Commit](https://img.shields.io/github/last-commit/nulswa/files?style=flat-square&color=8B5CF6) |
 
 <br>
 
