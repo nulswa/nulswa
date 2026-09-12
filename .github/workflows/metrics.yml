@@ -2,8 +2,8 @@ name: Generate profile metrics
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # runs every 6 hours
-  workflow_dispatch: # lets you trigger it manually from the Actions tab
+    - cron: "0 */6 * * *" 
+  workflow_dispatch: 
   push:
     branches:
       - main
@@ -14,9 +14,11 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      # Isometric commit calendar :/
       - name: Isometric calendar
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/isocalendar.svg
@@ -25,20 +27,21 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # 3D commit skyline ._.
       - name: Skyline
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/skyline.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_skyline: yes
-          plugin_skyline_year: 0 # 0 = current year :v
+          plugin_skyline_year: 0
           plugin_skyline_frames: 60
           plugin_skyline_quality: 0.5
+          plugin_skyline_compatibility: yes 
 
-      # Achievements :b
       - name: Achievements
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/achievements.svg
@@ -48,8 +51,8 @@ jobs:
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
 
-      # Languages, in-depth analysis (clones your repos to analyze real usage) :v
       - name: Languages (in-depth)
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/languages.svg
@@ -61,11 +64,8 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
 
-      # Stargazers :3
-      # Default: line/graph chart, no extra setup needed.
-      # Want the worldmap instead? Add plugin_stargazers_worldmap: yes and a
-      # Google Geocoding API token as plugin_stargazers_worldmap_token (see README notes) xd :/
       - name: Stargazers
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/stargazers.svg
@@ -74,8 +74,8 @@ jobs:
           plugin_stargazers: yes
           plugin_stargazers_charts_type: graph
 
-      # Contribution snake (separate small action, not part of metrics) jjj
       - name: Contribution snake
+        continue-on-error: true
         uses: Platane/snk@v3
         with:
           github_user_name: nulswa
